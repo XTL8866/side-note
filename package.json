@@ -1,0 +1,17 @@
+{
+  "name": "side-note",
+  "version": "0.3.1",
+  "description": "贴在桌面边缘的待办便签",
+  "main": "main.js",
+  "author": "x",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "build": "node tools/build-renderer.js",
+    "pack": "node tools/build-renderer.js && electron-packager . SideNote --platform=win32 --arch=x64 --out=dist --asar --app-version=0.3.1 --icon=assets/icon.ico --ignore=\"^/dist\" --ignore=\"^/tools\""
+  },
+  "devDependencies": {
+    "electron": "^44.9.0",
+    "electron-packager": "^17.1.2"
+  }
+}
