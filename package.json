@@ -3,8 +3,16 @@
   "version": "0.3.1",
   "description": "贴在桌面边缘的待办便签",
   "main": "main.js",
-  "author": "x",
+  "author": "Xie Tianle",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XTL8866/side-note.git"
+  },
+  "homepage": "https://github.com/XTL8866/side-note#readme",
+  "bugs": {
+    "url": "https://github.com/XTL8866/side-note/issues"
+  },
   "scripts": {
     "start": "electron .",
     "build": "node tools/build-renderer.js",
